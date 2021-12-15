@@ -1,0 +1,74 @@
+* { margin: 0;}
+
+.List { list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    flex-wrap: wrap;
+
+}
+
+
+nav { 
+background-color: #202649;
+color: white;
+font-weight: bold;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+padding:15px 60px;
+box-shadow: 0px 10px 20px rgba(0, 0, 0, 38) ;}
+
+
+.Avatar {
+
+    position: absolute;
+    top: 45PX;
+    width: 200px;
+    height: 246px;
+    /* background-color: #c4c4c4; */
+    border-radius: 206px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 35px;
+    font-weight: bold;
+    position: relative;
+    background-image: url(../style/jess.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 15px solid rgba(205 , 209, 232, 1);
+    
+        }
+        
+    
+        .Avatarmain { 
+            display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;}
+
+        #Box { 
+            align-items: center;
+          position: absolute;
+          right: 100px;
+          top: 60px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 150px;
+            height: 290px;
+            border-radius: 25px;
+            font-weight: bold;
+            font-size: 40px;
+            background-color:#202649 ;
+            margin: 10px;
+            color: white;
+            padding: 20px 70px;
+
+        
+        }
+    
